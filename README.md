@@ -1,3 +1,43 @@
-# innanikitina2353.github.io
+#John Doe — портфолио SMM специалиста
 
-You can visit site on [github pages](https://innanikitina2353.github.io)
+Cайт-портфолио вымышленного SMM специалиста, созданный с помощью HTML, CSS и JavaScript.
+
+## Особенности
+
+* Адаптивный дизайн, работающий на всех устройствах
+* Плавныe анимации
+* Слайдера Swiper.js для демонстрации портфолио
+* Форма обратной связи с валидацией
+* Мобильная навигация с бургер-меню
+* Анимации при прокрутке с помощью IntersectionObserver
+* Интеграция с социальными сетями
+
+## Используемые технологии
+
+* HTML5
+* CSS3 (Flexbox, Grid, медиа-запросы)
+* JavaScript (ES6+)
+* Swiper.js для слайдера портфолио
+* Font Awesome для иконок
+* Google Fonts
+
+## Структура проекта
+
+```
+├── index.html          # Главная страница  
+├── portfolio.html      # Страница портфолио с проектами  
+├── contacts.html       # Страница контактов с формой  
+├── css/
+│   └── style.css       # Основной файл стилей  
+├── js/
+│   └── main.js         # JavaScript-функционал  
+└── images/             # Изображения проекта  
+```
+
+## Демонстрация
+
+Сайт расположен на github pages: [John Doe Portfolio](https://yourusername.github.io/john-doe-portfolio)
+
+## Лицензия
+
+Этот проект лицензирован под MIT License — подробности в файле [LICENSE](LICENSE).
