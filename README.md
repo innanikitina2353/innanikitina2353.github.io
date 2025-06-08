@@ -1,2 +1,3 @@
 # innanikitina2353.github.io
-Многостраничный адаптивный сайт-портфолио с анимациями и слайдером
+
+You can visit site on [github pages](https://github.com/innanikitina2353.github.io)
