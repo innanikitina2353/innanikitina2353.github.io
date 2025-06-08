@@ -1,4 +1,4 @@
-#John Doe — портфолио SMM специалиста
+# John Doe — портфолио SMM специалиста
 
 Cайт-портфолио вымышленного SMM специалиста, созданный с помощью HTML, CSS и JavaScript.
 
@@ -36,7 +36,7 @@ Cайт-портфолио вымышленного SMM специалиста, 
 
 ## Демонстрация
 
-Сайт расположен на github pages: [John Doe Portfolio](https://yourusername.github.io/john-doe-portfolio)
+Сайт расположен на github pages: [John Doe Portfolio](https://innanikitina2353.github.io)
 
 ## Лицензия
 
