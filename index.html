@@ -1,10 +1,107 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
-    <title>test</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | SMM Специалист</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">John Doe</a>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="animate-on-scroll">Привет, я John Doe</h1>
+                    <p class="subtitle animate-on-scroll">SMM специалист с 5-летним опытом</p>
+                    <p class="description animate-on-scroll">Создаю эффективные стратегии продвижения в социальных сетях, которые помогают бизнесу расти и развиваться</p>
+                    <a href="portfolio.html" class="btn animate-on-scroll">Смотреть работы</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Что я предлагаю</h2>
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>Стратегия SMM</h3>
+                        <p>Разработка комплексной стратегии продвижения в социальных сетях</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Контент-маркетинг</h3>
+                        <p>Создание качественного контента для привлечения целевой аудитории</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Аналитика</h3>
+                        <p>Глубокий анализ эффективности и оптимизация кампаний</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item animate-on-scroll">
+                        <span class="number">50+</span>
+                        <p>Успешных проектов</p>
+                    </div>
+                    <div class="stat-item animate-on-scroll">
+                        <span class="number">100%</span>
+                        <p>Довольных клиентов</p>
+                    </div>
+                    <div class="stat-item animate-on-scroll">
+                        <span class="number">5</span>
+                        <p>Лет опыта</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>John Doe</h3>
+                    <p>SMM специалист</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 John Doe. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
